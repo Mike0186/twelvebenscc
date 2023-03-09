@@ -1,25 +1,30 @@
 
 *{
-   background-color: #31b2c2; 
+   background-color: black; 
    margin:0;
    padding:0;
 }
 
 h1 { 
     color: blue;
+    margin:0;
     font-family: Michroma ,sans-serif;
     font-size: 48px;
 }
 
 /* Navigation Bar*/
 .navbar {
-    list-style-type: none;
-    margin: top 2px;
-    float:right;
+    text-align:right;
+    position: relative;
+    z-index: 1;
+}
+.navbar > li {
+    display:inline;
+    margin: 0 50px 30px 0;
+    font-size: 30px;
 }
 
 /* Header picture*/
-
 .parent {
     position: relative;
     top:0;
@@ -30,11 +35,37 @@ h1 {
    height:600px;
    position: relative;
 }
- 
 #logo {
     position:absolute;
     top:80px;
     right:10px;
     opacity: 0.9;
+}
+
+/*footer*/
+footer {
+    Height: 150px;
+}
+
+.social {
+    Text-align: center;
+    list-style-type: none;
+}
+
+.social > li {
+display:inline;
+}
+
+.social i {
+font-size: 160%;
+margin: 1%;
+padding: 5%;
+color: #3a3a3a;
+}
+
+P {
+    COLOR:white;
+    margin: 50 0 50 0;
+    margin
 }
 
