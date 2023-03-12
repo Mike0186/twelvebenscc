@@ -1,15 +1,36 @@
- /* * { 
-    background-color: black;
-    margin: 0;
-    padding: 0;
-} */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@300&display=swap');
+ 
 
-/* h1 {
+ * { 
+    background-color: black;
+    margin:0;
+    padding:0;
+} 
+
+h1 {
     color: #31b2c2;
     margin: 0px;
-    font-family: Michroma, sans-serif;
-    font-size: 48px;
-} */
+    font-family: 'Michroma', sans-serif;
+    font-size: 3em;
+}
+h2 {
+    color: #31b2c2;
+    font-family: 'Michroma', sans-serif;
+    font-size: 2em;
+}
+
+section {
+    margin-inline: auto;
+    width:min(90%, 70.5rem);
+    padding: 3rem 0;
+}
+
+P {
+    color: white;
+    font-family: 'nato sans', sans-serif;
+    font-size: 1em;
+}
 
 /* Navigation Bar*/
 /* .navbar {
