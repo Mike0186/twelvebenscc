@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@300&display=swap');
+
+* { 
+    margin:0;
+    padding:0;
+} 
+
+
+.home--header {
+    background-image:  url(../images/topofworld.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: michroma;
+    color: #31b2c2;
+    }
+
+    .home--header>h1{
+        font-size: 3rem;
+    }
+
+    li > a {
+        text-decoration: none; 
+        text-transform: uppercase;
+         color: #31b2c2;
+                 
+     }
+
+     .navbar>li {
+        display: inline-block;
+        margin:.9em;
+        padding: .4em;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #31b2c2;
+        line-height: 3em;
+
+}
+
+.home>h2 {
+    font-family: michroma;
+    color: #31b2c2;
+    padding: .5em;
+}
+
+.home>p {
+    font-family: 'nato sans';
+
+}
+.container,section {
+    margin-inline: auto;
+    width:min(90%, 70.5rem);
+    padding: 1rem 0;
+}
+
+.section{
+    border: 1px
+}
+
+
+    /* footer */
+
+ .social>li {
+    display: inline-block;
+    margin: .8em;
+    padding: .6em;
+    background-color: black;
+    font-size: 200%;
+    color: #31b2c2;
+    line-height: 2em;
+    list-style: none;
+    
+    
+
+}   
+.social {
+    text-align: center;
+}
+
+
+@media (max-width: 1102px) {
+    .home--header {
+      background-image: none;
+    }
+   
+   
+}
+
