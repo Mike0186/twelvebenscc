@@ -1,7 +1,6 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@300&display=swap');
  
-
  * { 
     background-color: black;
     margin:0;
@@ -20,7 +19,7 @@ h2 {
     font-size: 2em;
 }
 
-section {
+.container,section {
     margin-inline: auto;
     width:min(90%, 70.5rem);
     padding: 3rem 0;
@@ -30,10 +29,11 @@ P {
     color: white;
     font-family: 'nato sans', sans-serif;
     font-size: 1em;
+    padding
 }
 
 /* Navigation Bar*/
-/* .navbar {
+ .navbar {
     text-align: right;
     position: relative;
     z-index: 1;
@@ -49,6 +49,7 @@ P {
 li > a {
    text-decoration: none; 
     color: #31b2c2;
+    padding-inline: .2rem;
    
 } */
 
@@ -65,12 +66,13 @@ li > a {
     height: 300px;
     position: relative;
     margin-inline: auto;
-}
+}*/
 
-#logo {
-    position: absolute;
-    top: 80px;
-    right: 10px;
+.logo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     opacity: 0.9;
 }
 
