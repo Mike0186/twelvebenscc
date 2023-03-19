@@ -1,89 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@300&display=swap');
 
-* { 
-    margin:0;
-    padding:0;
-} 
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    background-color: black;
+}
 
 
 .home--header {
-    background-image:  url(../images/topofworld.jpg.jpg);
+    background-image: url(../images/topofworld.jpg);
+    background-size: cover;
+    background-size: 100%;
+    text-align: center;
+    font-family: michroma;
+    color: #3d7995;
+}
+
+h1 {
+    font-size: 3rem;
+    color:#3d7995;
+    padding: .2em;
+    background-color: black;
+}
+
+li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #31b2c2;
+}
+
+.navbar>li {
+    display: inline-block;
+    margin: .9em;
+    padding: .4em;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3d7995;
+    line-height: 3em;
+}
+
+h2 {
+    font-family: michroma;
+    word-spacing: .2em;
+    text-decoration: underline;
+    color: #3d7995;
+    padding: .5em;
+}
+
+p {
+    font-family: 'nato sans';
+    font-size: 1.5rem;
+    word-spacing: 0.2em;
+    color: #3d7995;
+
+}
+
+.container,
+section {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    padding: 1rem 0;
+}
+
+.section {
+    border: 1px;
+    
+}
+
+
+/* spins */
+
+.spins{
+    width:100%;
+    height:auto;
+    padding-top: 3rem;
+}
+
+.spins--header {
+    background-image: url(../images/members\ cycle.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
     font-family: michroma;
-    color: #31b2c2;
-    }
-
-    .home--header>h1{
-        font-size: 3rem;
-    }
-
-    li > a {
-        text-decoration: none; 
-        text-transform: uppercase;
-         color: #31b2c2;
-                 
-     }
-
-     .navbar>li {
-        display: inline-block;
-        margin:.9em;
-        padding: .4em;
-        background-color: black;
-        font-size: 1rem;
-        font-weight: bold;
-        color: #31b2c2;
-        line-height: 3em;
-
+    color: #3d7995;
 }
 
-.home>h2 {
-    font-family: michroma;
-    color: #31b2c2;
-    padding: .5em;
-}
+/* footer */
 
-.home>p {
-    font-family: 'nato sans';
-
-}
-.container,section {
-    margin-inline: auto;
-    width:min(90%, 70.5rem);
-    padding: 1rem 0;
-}
-
-.section{
-    border: 1px
-}
-
-
-    /* footer */
-
- .social>li {
+.social>li {
     display: inline-block;
     margin: .8em;
     padding: .6em;
     background-color: black;
     font-size: 200%;
-    color: #31b2c2;
+    color: #3d7995;
     line-height: 2em;
     list-style: none;
-    
-    
+}
 
-}   
 .social {
     text-align: center;
 }
 
+/* signup.html */
 
-@media (max-width: 1102px) {
-    .home--header {
-      background-image: none;
-    }
-   
-   
+.signup--header {
+    background-image: url(../images/members\ cycle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: michroma;
+    color: #3d7995;
 }
 
+.form{
+    background-color: #9a9495;
+    padding: 1rem;
+}
+
+.button {
+    padding: .5rem;
+}
+legend {
+    background-color:#9a9495;
+    padding:.2em;
+    color:black;
+    font-family:michroma;
+}
+    
+.hero{
+    width:100%;
+    height:auto;
+    padding-top: 3rem;
+}
+
+span {
+    display: inline-block;
+    overflow: hidden;
+    /* padding: 0px 4px 0px 6px; */
+}
+
+
+@media (max-width: 1102px) {
+    .home--header, .spins--header, .signup--header{
+        background-image: none;
+
+    }
+        
+
+
+    .home>h2 {
+        font-family: michroma;
+        color: #3d7995;
+        padding: .5em;
+    }
+
+}

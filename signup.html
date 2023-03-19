@@ -11,8 +11,8 @@
 
 </head>
 
-<body>
-    <header>
+<body class="container">
+    <header class="signup--header">
         <H1>Sign Up</H1>
         <div class="logo">
             <img src="assets/images/twelvebenslogo2.jpg" alt="Clug logo">
@@ -33,21 +33,33 @@
         </div>
     </section>
     <form action="#" method="post">
-        <fieldset>
+        <fieldset class="form">
+
             <legend>Contact Information</legend>
-            <label for="fname">First Name:<br>
-                <input type="text" name="fname" required></Label><br>
-                <label for="sname">Surname:<br>
-                    <input type="text" name="sname" required></Label><br>
 
-            <label for="name">Email:<br>
-                <input type="email" name="email" required></Label><br>
+            <label for="fname">First Name:</Label>
+                    <input type="text" name="fname" required><br><br>
+            
+            <label for="sname">Surname:</Label>
+                <input type="text" name="sname" required><br><br>
+            
 
-            <label for="name">phone:<br>
-                <input type="text" name="phone" required></Label><br><br>
+            <label for="name">Email:</Label>
+                <input type="email" name="email" required placeholder="me@example.com"><br><br>
+           
 
-                <input type="submit" value="submit">
-                <input type="reset" value="refresh">
+            <label for="name">Phone:</Label>
+                <input type="text" name="phone" required><br><br>
+            
+
+            <input type="radio" name="rtype" value="leisure" checked="checked"> Leisure
+            <input type="radio" name="rtype" value="Beginner" checked="checked"> Beginner
+            <input type="radio" name="rtype" value="Advanced" checked="checked"> Advanced
+            <input type="radio" name="rtype" value="Mountain/trail" checked="checked"> Mountain/trail<br><br>
+
+
+            <input class="button" type="submit" value="submit">
+            <input class="button" type="reset" value="refresh"><br><br>
 
         </fieldset>
 
@@ -59,16 +71,15 @@
     <footer>
         <ul class="social">
             <li>
-                <a href="https://www.facebook.com/twelvebenscc" target="_blank">Facebook<i
+                <a href="https://www.facebook.com/twelvebenscc" target="_blank"><i
                         class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com/twelvebenscc?igshid=YmMyMTA2M2Y=" target="_blank">instagram<i
+                <a href="https://instagram.com/twelvebenscc?igshid=YmMyMTA2M2Y=" target="_blank"><i
                         class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.strava.com/clubs/255018" Target="_blank"><i
-                        class="fa-brands fa-strava">Strava</i></a>
+                <a href="https://www.strava.com/clubs/255018" Target="_blank"><i class="fa-brands fa-strava"></i></a>
             </li>
         </ul>
     </footer>
@@ -76,5 +87,6 @@
 
 
 </body>
+<script src="https://kit.fontawesome.com/da8765756d.js" crossorigin="anonymous"></script>
 
 </html>
