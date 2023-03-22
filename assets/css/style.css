@@ -13,6 +13,7 @@
     background-image: url(../images/members.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center center;
     text-align: center;
     font-family: michroma;
     color: #3d7995; 
@@ -31,14 +32,6 @@ h1 {
    
 }
 
-/* .home {
-     border: 1em solid #3d7995; 
-    width:100%;
-    padding:1rem;
-    margin-top: 5rem;
-    width: 100%;
-   
-} */
 li>a {
     text-decoration: none;
     text-transform: uppercase;
@@ -83,6 +76,8 @@ p {
     background-image: url(../images/Slyne\ to\ broadheaven.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height:600px;
+    background-position: center center;
     text-align: center;
     font-family: michroma;
     color: #3d7995;
@@ -117,17 +112,27 @@ p {
 }
 
 .form{
-    background-color: #9a9495;
-    padding: 1rem;
+    background-color: rgba(61, 121, 149, .6);
+    font-weight: 800;
+    color: white;
+    padding: 1rem;    
+    width: 50%;
+    margin:auto;
 }
+.form--back{
+    padding: 80px;
+    background-image: url(../images/topofworld.jpg);
+    background-position: center center;
 
+}
 .button {
     padding: .5rem;
 }
 legend {
-    background-color:#9a9495;
+    background-color: rgba(61, 121, 149, .6);
+    color: white;
     padding:.2em;
-    color:black;
+
     font-family:michroma;
 }
     
@@ -135,6 +140,20 @@ legend {
     width:100%;
     height:auto;
     padding-top: 3rem;
+}
+
+/*thankyou*/
+.thankyou { 
+    background-image: url(../images/skyroadcycle.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:600px;
+}
+
+span{
+    text-indent: 50px;
 }
 
 
@@ -151,3 +170,9 @@ legend {
     }
 
 }
+/* @media (min-width:1102px){
+    #logo {
+        Float:right;
+    }
+
+} */
