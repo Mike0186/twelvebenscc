@@ -3,20 +3,19 @@
 * {
     margin: 0;
     padding: 0;
-   
+    border:none;
 }
 .container {
     background-color: black;
 }
 
-
 .home--header {
-    background-image: url(../images/topofworld.jpg);
-    background-size: cover;
+    background-image: url(../images/members.jpg) ;
+    background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
     font-family: michroma;
-    color: #3d7995;
+    color: #3d7995; 
 }
 
 h1 {
@@ -25,7 +24,21 @@ h1 {
     padding: .2em;
     background-color: black;
 }
+.container,
+.section {
+    margin:auto;
+    width: min(90%, 70.5rem);
+   
+}
 
+/* .home {
+     border: 1em solid #3d7995; 
+    width:100%;
+    padding:1rem;
+    margin-top: 5rem;
+    width: 100%;
+   
+} */
 li>a {
     text-decoration: none;
     text-transform: uppercase;
@@ -58,20 +71,6 @@ p {
     color: #3d7995;
 
 }
-
-.container,
-section {
-    margin-inline: auto;
-    width: min(90%, 70.5rem);
-    padding: 1rem 0;
-}
-
-.section {
-    border: 1px;
-    
-}
-
-
 /* spins */
 
 .spins{
@@ -81,7 +80,7 @@ section {
 }
 
 .spins--header {
-    background-image: url(../images/members\ cycle.jpg);
+    background-image: url(../images/Slyne\ to\ broadheaven.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
@@ -96,7 +95,7 @@ section {
     margin: .8em;
     padding: .6em;
     background-color: black;
-    font-size: 200%;
+    font-size: 5rem;
     color: #3d7995;
     line-height: 2em;
     list-style: none;
@@ -138,20 +137,12 @@ legend {
     padding-top: 3rem;
 }
 
-span {
-    display: inline-block;
-    overflow: hidden;
-    /* padding: 0px 4px 0px 6px; */
-}
-
 
 @media (max-width: 1102px) {
     .home--header, .spins--header, .signup--header{
         background-image: none;
 
     }
-        
-
 
     .home>h2 {
         font-family: michroma;

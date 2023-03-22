@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <Meta name="description" Content="cycling club clifden county Galway">
+    <meta name="keywords" content="road cycling, mountain bike, cycling, clifden">
+    <meta name="author" content="Michael Burns">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Club Spins</title>
@@ -15,21 +18,23 @@
     <header class="signup--header">
         <H1>Sign Up</H1>
         <div class="logo">
-            <img src="assets/images/twelvebenslogo2.jpg" alt="Clug logo">
+            <img src="assets/images/twelvebenslogo2.avif" alt="Clug logo">
         </div>
         <nav>
             <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="spins2.html">Spins</a></li>
-                <li><a href="signup.html">Sign up</a></li>
+                <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+                <li><a href="spins2.html" aria-label="Go to spins page">Spins</a></li>
+                <li><a href="signup.html" aria-label="Go to sign up page">Sign up</a></li>
             </ul>
         </nav>
     </header>
 
     <section>
         <div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti vero nisi ut natus illo dolores
-                repellat veritatis repudiandae quod velit? Eligendi laborum a aperiam ex.</p>
+            <br>
+            <p>Please get in touch by completing the form below. Once submitted one of our cycleologists will be in
+                touch with you to fill you in on everything. </p>
+            <br>    
         </div>
     </section>
     <form action="#" method="post">
@@ -38,19 +43,19 @@
             <legend>Contact Information</legend>
 
             <label for="fname">First Name:</Label>
-                    <input type="text" name="fname" required><br><br>
-            
+            <input type="text" name="fname" required alt="first name field"><br><br>
+
             <label for="sname">Surname:</Label>
-                <input type="text" name="sname" required><br><br>
-            
+            <input type="text" name="sname" required alt="surname field"><br><br>
+
 
             <label for="name">Email:</Label>
-                <input type="email" name="email" required placeholder="me@example.com"><br><br>
-           
+            <input type="email" name="email" required placeholder="me@example.com" alt="email field"><br><br>
+
 
             <label for="name">Phone:</Label>
-                <input type="text" name="phone" required><br><br>
-            
+            <input type="text" name="phone" required alt=" phone number field"><br><br>
+
 
             <input type="radio" name="rtype" value="leisure" checked="checked"> Leisure
             <input type="radio" name="rtype" value="Beginner" checked="checked"> Beginner
@@ -58,8 +63,8 @@
             <input type="radio" name="rtype" value="Mountain/trail" checked="checked"> Mountain/trail<br><br>
 
 
-            <input class="button" type="submit" value="submit">
-            <input class="button" type="reset" value="refresh"><br><br>
+            <input class="button" type="submit" value="Submit">
+            <input class="button" type="reset" value="Reset"><br><br>
 
         </fieldset>
 
@@ -71,15 +76,18 @@
     <footer>
         <ul class="social">
             <li>
-                <a href="https://www.facebook.com/twelvebenscc" target="_blank"><i
+                <a href="https://www.facebook.com/twelvebenscc" target="_blank"
+                    aria-label="go to our Facebook page.(link opens in a new tab)"><i
                         class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com/twelvebenscc?igshid=YmMyMTA2M2Y=" target="_blank"><i
+                <a href="https://instagram.com/twelvebenscc?igshid=YmMyMTA2M2Y=" target="_blank"
+                    aria-label="go to our instagram page.(link opens in a new tab)"><i
                         class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.strava.com/clubs/255018" Target="_blank"><i class="fa-brands fa-strava"></i></a>
+                <a href="https://www.strava.com/clubs/255018" Target="_blank"
+                    aria-label="go to our strava page.(link opens in a new tab)"><i class="fa-brands fa-strava"></i></a>
             </li>
         </ul>
     </footer>
