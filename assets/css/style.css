@@ -3,33 +3,36 @@
 * {
     margin: 0;
     padding: 0;
-    border:none;
+    border: none;
 }
+
 .container {
     background-color: black;
 }
 
 .home--header {
-    background-image: url(../images/members.jpg) ;
+    background-image: url(../images/members.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 600px;
     background-position: center center;
     text-align: center;
     font-family: michroma;
-    color: #3d7995; 
+    color: #3d7995;
 }
 
 h1 {
     font-size: 3rem;
-    color:#3d7995;
+    color: #3d7995;
     padding: .2em;
-    background-color: black;
+    /* background-color: black; */
 }
+
 .container,
 .section {
-    margin:auto;
+    margin: auto;
     width: min(90%, 70.5rem);
-   
+
 }
 
 li>a {
@@ -62,13 +65,15 @@ p {
     font-size: 1.5rem;
     word-spacing: 0.2em;
     color: #3d7995;
+    text-align: justify;
 
 }
+
 /* spins */
 
-.spins{
-    width:100%;
-    height:auto;
+.spins {
+    width: 100%;
+    height: auto;
     padding-top: 3rem;
 }
 
@@ -76,7 +81,7 @@ p {
     background-image: url(../images/Slyne\ to\ broadheaven.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height:600px;
+    height: 600px;
     background-position: center center;
     text-align: center;
     font-family: michroma;
@@ -87,12 +92,12 @@ p {
 
 .social>li {
     display: inline-block;
-    margin: .8em;
-    padding: .6em;
+    margin: 2px;
+    padding: 2px;
     background-color: black;
-    font-size: 5rem;
+    font-size: 30px;
     color: #3d7995;
-    line-height: 2em;
+    /* line-height: 2em; */
     list-style: none;
 }
 
@@ -106,59 +111,65 @@ p {
     background-image: url(../images/members\ cycle.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 600px;
     text-align: center;
     font-family: michroma;
     color: #3d7995;
 }
 
-.form{
+.form {
     background-color: rgba(61, 121, 149, .6);
     font-weight: 800;
     color: white;
-    padding: 1rem;    
+    padding: 1rem;
     width: 50%;
-    margin:auto;
+    margin: auto;
 }
-.form--back{
+
+.form--back {
     padding: 80px;
     background-image: url(../images/topofworld.jpg);
     background-position: center center;
 
 }
+
 .button {
     padding: .5rem;
 }
+
 legend {
     background-color: rgba(61, 121, 149, .6);
     color: white;
-    padding:.2em;
+    padding: .2em;
 
-    font-family:michroma;
+    font-family: michroma;
 }
-    
-.hero{
-    width:100%;
-    height:auto;
+
+.hero {
+    width: 100%;
+    height: auto;
     padding-top: 3rem;
 }
 
 /*thankyou*/
-.thankyou { 
+.thankyou {
     background-image: url(../images/skyroadcycle.jpg);
     background-size: cover;
-    
     background-repeat: no-repeat;
     background-position: center center;
-    padding:600px;
+
 }
 
-span{
+span {
     text-indent: 50px;
 }
 
 
 @media (max-width: 1102px) {
-    .home--header, .spins--header, .signup--header{
+
+    .home--header,
+    .spins--header,
+    .signup--header {
         background-image: none;
 
     }
@@ -170,9 +181,31 @@ span{
     }
 
 }
-/* @media (min-width:1102px){
+
+@media (min-width:1102px) {
+
     #logo {
-        Float:right;
+        float: right;
+        opacity: 0.5;
+        height: 150px;
+        margin-top: 360px;
+
     }
 
-} */
+    h1{
+        color:white;
+    }
+    /* https://stackoverflow.com/questions/56521316/how-do-i-overlay-a-transparent-navbar-over-a-hero-image-and-have-a-functioning-b */
+    .navbar>li {font-size: 20px;
+        margin-top:0em;
+        margin-bottom:0em;
+        font-weight:600;
+        padding: 0px 32px;
+        color: white !important;    
+        background: transparent; position:relative;
+        margin-bottom: -104px;  
+        z-index: 1;  
+
+    }
+
+}
