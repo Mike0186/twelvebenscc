@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Lobster&family=Michroma&family=Noto+Sans:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
     border: none;
 }
 
-.container {
+.page--container {
     background-color: black;
 }
 
@@ -21,24 +21,22 @@
     color: #3d7995;
 }
 
-/* https://www.youtube.com/watch?v=VQraviuwbzU */
 h1 {
-    font-size: clamp (10rem, 1rem + 10vw, 20rem);
+    font-size: 2rem;
+    font-weight: 800;
     color: #3d7995;
     text-align: center;
 }
 
-
-
-.container,
-.section {
+.page--container,
+.spins {
     margin: auto;
     width: min(90%, 70.5rem);
 
 }
 
 li>a {
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
     color: #31b2c2;
 }
@@ -48,12 +46,11 @@ li>a {
     text-align: center;
     margin: .5rem;
     padding: .2em;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: bolder;
     color: #3d7995;
     line-height: 3em;
 }
-
 
 h2 {
     font-family: michroma;
@@ -144,7 +141,6 @@ legend {
     background-color: rgba(61, 121, 149, .6);
     color: white;
     padding: .2em;
-
     font-family: michroma;
 }
 
@@ -156,11 +152,33 @@ legend {
 
 /*thankyou*/
 .thankyou {
-    background-image: url(../images/skyroadcycle.jpg);
+    clear: left;
+    background-image: url(../images/sign.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 900px;
+}
 
+.form--sub {
+    font-family: lobster;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: .5em .1em;
+    /* background-color: rgba(61, 121, 149, .6); */
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.form--p {
+    font-family: freehand;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding: .5em .1em;
+    /* background-color: rgba(61, 121, 149, .6); */
+    color: green;
 }
 
 
@@ -193,21 +211,6 @@ legend {
 
     h1 {
         color: white;
-    }
-
-    /* https://stackoverflow.com/questions/56521316/how-do-i-overlay-a-transparent-navbar-over-a-hero-image-and-have-a-functioning-b */
-    .navbar>li {
-        font-size: 20px;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        font-weight: 600;
-        padding: 0px 32px;
-        color: white !important;
-        background: transparent;
-        position: relative;
-        margin-bottom: -104px;
-        z-index: 1;
-
     }
 
 }
