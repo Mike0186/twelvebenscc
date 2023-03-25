@@ -1,9 +1,12 @@
 # Twelve Bens Cycling Club
 ![Twelve Bens Club Logo](/wireframe-images/twelvebenslogo2.jpg)
+![amiresponsive](/wireframe-images/responsivescreenshot.JPG)
 
 This website was designed as a content piece for the Twelve Bens Cycling Club to give prospective members an idea of what the club is about and what they do. Before this website the main source of information was issued over the clubs social media sites and whatsapp group. 
 
 The site combines all three of clubs social network pages and allows the user to sign up to the clubs group chats. Users of the site will be able to quickly find their way around and get a tastes of the various cycles and what the club is about. 
+
+The site is responsive accross all devices and is presented well on all screen sizes. The picture above was taken from [amiresponsive](https://amiresponsive.co.uk/)
 
 
 # UI/UX
@@ -53,7 +56,7 @@ The site combines all three of clubs social network pages and allows the user to
 - Finally a cycling blog with "how to" video tutorials. These could range from how to find the perfect bike, how to pick the correct size bike.
 
 # Testing
-- This site has been tested on the follwoing browsers; Chrome, Firefox
+- This site has been tested on the follwoing browsers; Chrome, Firefox and Micrsoft Edge.
 
 - Through the various test I can confirm theat the dite is responsive and looks good on all screen sizes. 
 
@@ -62,9 +65,9 @@ The site combines all three of clubs social network pages and allows the user to
 - The text contrast on all titles and links are all readable against the backgrounds. 
 
 ### Bugs
-- 
--
--
+- images folder not correctly mapped. This was rectified by placing it in the assest folder. 
+
+
 
 
  ### Validator Testing
@@ -76,12 +79,44 @@ The site combines all three of clubs social network pages and allows the user to
  ![lighthouse test screen shot](/wireframe-images/lighthousetest.JPG)
 
 # Deployment 
+- The site was deployed to the github pages.
+    - In the github repository, nagigate to the settings tab.
+    - from the source section drop-down menu select themaster branch
+    -once the master branch hs been selected, the page provided the link to the website.
+
 
 # Credits
 
-- Content
+-sample readme for deployment stages. 
+
+- Kevin Powell video tutorails on responsive first design [kevin Powell](https://www.youtube.com/watch?v=zyNhxN6sToM&t=980s)
+
+
+- Page redirect for thank you page [w3c](https://www.w3.org/TR/WCAG20-TECHS/H76.html)
+
+- Placeing logo on top of hero image.
+[w3docs page](https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html)
+
+- Hiding Hero image on small device. [w3docs](https://www.w3docs.com/snippets/css/how-to-hide-elements-in-a-responsive-layout.html#:~:text=To%20hide%20an%20element%20in,on%20devices%20smaller%20than%20767px.)
+
+- Fieldset & legend [w3docs](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_fieldset_css)
+
+
+## Content
+
+The content of this site was written by me Michael Burns from my experience as a club member. 
 
 - Media
 Media images that were used in this website were taken from the club instagram pages and whatsapp group. 
 
-![home hero image](https://www.instagram.com/p/CE9GzwnAyyl/)
+[home hero image] (https://www.instagram.com/p/CE9GzwnAyyl/)
+
+[spins hero image] This image was from WhatsApp group.
+
+[sign up Hero] (https://www.instagram.com/p/CE6NE0YgaeS/?utm_source=ig_web_copy_link)
+
+[background photo from sign up form] This picture was my photo.
+
+[cycle routes taken from instagram & strava] (https://www.instagram.com/twelvebenscc/)
+
+

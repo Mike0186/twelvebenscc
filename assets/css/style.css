@@ -152,12 +152,23 @@ legend {
 
 /*thankyou*/
 .thankyou {
-    clear: left;
-    background-image: url(../images/sign.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 900px;
+    margin: auto;
+    width: min(90%, 70.5rem);
+    background-color: black;
+   
+}
+
+.intouch>h2 {
+    font-family: lobster;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+.thankyou--header {
+    text-align: center;
+    font-family: michroma;
+    color: #3d7995;
+   
 }
 
 .form--sub {
@@ -166,7 +177,6 @@ legend {
     color: white;
     text-align: center;
     padding: .5em .1em;
-    /* background-color: rgba(61, 121, 149, .6); */
     text-decoration: underline;
     text-transform: capitalize;
 }
@@ -177,8 +187,7 @@ legend {
     font-size: 60px;
     font-weight: bold;
     padding: .5em .1em;
-    /* background-color: rgba(61, 121, 149, .6); */
-    color: green;
+    color: #3d7995;
 }
 
 
