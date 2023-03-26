@@ -28,6 +28,7 @@ h1 {
     text-align: center;
 }
 
+/* This piece of code was taken from Kevin Powell Responsive design as per credits section in readme*/
 .page--container,
 .spins {
     margin: auto;
@@ -190,6 +191,7 @@ legend {
     color: #3d7995;
 }
 
+/* These media Queries were taken from w3docs pages as per credits section in readme*/
 
 @media (max-width: 1102px) {
 
